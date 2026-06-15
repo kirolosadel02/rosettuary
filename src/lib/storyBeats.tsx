@@ -22,7 +22,7 @@ export const STORY_BEATS: StoryBeat[] = [
     to: 75,
     align: "left",
     title: "Stillness",
-    subtitle: "The Nile Side",
+    subtitle: "The Sea Side",
     fade: 8,
   },
   {
@@ -46,7 +46,7 @@ export const STORY_BEATS: StoryBeat[] = [
     to: 205,
     align: "left",
     title: "Release",
-    subtitle: "The Mediterranean Side",
+    subtitle: "The Nile Side",
     fade: 8,
   },
   {

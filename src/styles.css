@@ -167,6 +167,12 @@
   from { transform: scaleX(0); }
   to { transform: scaleX(1); }
 }
+@media (prefers-reduced-motion: reduce) {
+  .story-beat {
+    transition: none !important;
+    transform: none !important;
+  }
+}
 
 .ros-reveal { opacity: 0; }
 .ros-reveal.is-visible { animation: ros-fadeup 1.2s cubic-bezier(.22,.61,.36,1) forwards; }

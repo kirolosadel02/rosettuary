@@ -8,7 +8,7 @@ export function ProgressIndicator() {
   return (
     <div className="pointer-events-none fixed bottom-8 left-1/2 z-20 flex -translate-x-1/2 items-center gap-3 md:gap-4">
       <span className="label-caps hidden text-[var(--gold)] sm:inline">
-        Nile
+        Mediterranean
       </span>
 
       <div className="relative h-px w-28 bg-white/20 md:w-40">
@@ -22,7 +22,7 @@ export function ProgressIndicator() {
       </div>
 
       <span className="label-caps hidden text-[var(--gold)] sm:inline">
-        Mediterranean
+        Nile
       </span>
     </div>
   );
